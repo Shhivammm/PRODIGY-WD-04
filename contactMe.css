@@ -1,0 +1,29 @@
+body {
+  font-family: "Verdana", sans-serif;
+  background-image: linear-gradient(to bottom, #e6acac, #cc7ef3);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contact-container {
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+}
+.social-links {
+  margin-top: 20px;
+}
+.social-links a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 32px;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+}
+.social-links a:hover {
+  transform: translateY(-10px);
+}
